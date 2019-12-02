@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c8380b1-5f76-43bb-a161-7a48b6ffbf1a" name="Default Changelist" comment="" />
+    <list default="true" id="1c8380b1-5f76-43bb-a161-7a48b6ffbf1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lotr/com/company/Input" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lotr/com/company/Input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Input" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UHzLFnhfOoysAB9L8wmrFtFJ6f" />
   <component name="ProjectViewState">
@@ -14,7 +24,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -67,38 +82,42 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="716" y="256" width="544" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575031215749" />
-    <state width="1807" height="249" key="GridCell.Tab.0.bottom" timestamp="1575042087089">
+    <state width="1807" height="249" key="GridCell.Tab.0.bottom" timestamp="1575280046807">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="249" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575042087089" />
-    <state width="1807" height="249" key="GridCell.Tab.0.center" timestamp="1575042087087">
+    <state width="1807" height="249" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575280046807" />
+    <state width="1807" height="249" key="GridCell.Tab.0.center" timestamp="1575280046805">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="249" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575042087087" />
-    <state width="1807" height="249" key="GridCell.Tab.0.left" timestamp="1575042087085">
+    <state width="1807" height="249" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575280046805" />
+    <state width="1807" height="249" key="GridCell.Tab.0.left" timestamp="1575280046804">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="249" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575042087085" />
-    <state width="1807" height="249" key="GridCell.Tab.0.right" timestamp="1575042087088">
+    <state width="1807" height="249" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575280046804" />
+    <state width="1807" height="249" key="GridCell.Tab.0.right" timestamp="1575280046806">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="249" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575042087088" />
-    <state width="1807" height="679" key="GridCell.Tab.1.bottom" timestamp="1575042053823">
+    <state width="1807" height="249" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575280046806" />
+    <state width="1807" height="298" key="GridCell.Tab.1.bottom" timestamp="1575279902384">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="679" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575042053823" />
-    <state width="1807" height="679" key="GridCell.Tab.1.center" timestamp="1575042053820">
+    <state width="1807" height="298" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575279902384" />
+    <state width="1807" height="298" key="GridCell.Tab.1.center" timestamp="1575279902382">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="679" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575042053820" />
-    <state width="1807" height="679" key="GridCell.Tab.1.left" timestamp="1575042053819">
+    <state width="1807" height="298" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575279902382" />
+    <state width="1807" height="298" key="GridCell.Tab.1.left" timestamp="1575279902382">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="679" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575042053819" />
-    <state width="1807" height="679" key="GridCell.Tab.1.right" timestamp="1575042053821">
+    <state width="1807" height="298" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575279902382" />
+    <state width="1807" height="298" key="GridCell.Tab.1.right" timestamp="1575279902383">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="679" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575042053821" />
+    <state width="1807" height="298" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575279902383" />
+    <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1575278617506">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575278617506" />
     <state x="638" y="288" width="710" height="528" key="find.popup" timestamp="1575029644768">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -109,8 +128,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="9" />
+          <line>67</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

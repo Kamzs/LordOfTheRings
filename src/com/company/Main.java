@@ -11,6 +11,8 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
+        long a = System.currentTimeMillis();
+
         System.setIn(new FileInputStream("src/com/company/Input"));
         Scanner s = new Scanner(System.in);
         int NUMBER_OF_CASES = s.nextInt();
@@ -39,6 +41,9 @@ public class Main {
             main.solve((int) LIST_OF_PHASES_IN_CASES.getObjectByIndex(g), (int[][]) LIST_OF_CASES.getObjectByIndex(g));
 
             System.out.println(main.result);
+
+            long b = System.currentTimeMillis();
+            System.out.println("runtime was : " + (b - a) + " ms");
 
         }
     }
@@ -69,23 +74,25 @@ public class Main {
 
                     int orcsToFightInCurrentPhase = MatrixOrcsToll[0][currentPhase];
                     if (orcsInHand[0] + orcsInHand[1] + orcsInHand[2] >= orcsToFightInCurrentPhase) {
+                        int [] orcsAfterFight = new int [3];
 
                         if (orcsInHand[0] >= orcsToFightInCurrentPhase) {
-                            orcsInHand[0] = orcsInHand[1];
-                            orcsInHand[1] = orcsInHand[2];
-                            orcsInHand[2] = 0;
+                            orcsAfterFight[0] = orcsInHand[1];
+                            orcsAfterFight[1] = orcsInHand[2];
+                            orcsAfterFight[2] = 0;
                         }
                         else if (orcsInHand[0] + orcsInHand[1] >= orcsToFightInCurrentPhase) {
-                            orcsInHand[0] = orcsInHand[0] + orcsInHand[1] - orcsToFightInCurrentPhase;
-                            orcsInHand[1] = orcsInHand[2];
-                            orcsInHand[2] = 0;
+                            orcsAfterFight[0] = orcsInHand[0] + orcsInHand[1] - orcsToFightInCurrentPhase;
+                            orcsAfterFight[1] = orcsInHand[2];
+                            orcsAfterFight[2] = 0;
                         }
                         else if(orcsInHand[0] + orcsInHand[1] + orcsInHand[2]  >= orcsToFightInCurrentPhase) {
-                            orcsInHand[0] = 0;
-                            orcsInHand[1] = orcsInHand[0] + orcsInHand[1] + orcsInHand[2] - orcsToFightInCurrentPhase;
+                            orcsAfterFight[1] = orcsInHand[0] + orcsInHand[1] + orcsInHand[2] - orcsToFightInCurrentPhase;
+                            orcsAfterFight[0] = 0;
+                            orcsAfterFight[2] = 0;
                         }
 
-                        goNextPhase(NumberOfPhases, MatrixOrcsToll, currentPhase + 1, spentSoFar, orcsInHand);
+                        goNextPhase(NumberOfPhases, MatrixOrcsToll, currentPhase + 1, spentSoFar, orcsAfterFight);
                     }
 
             }
